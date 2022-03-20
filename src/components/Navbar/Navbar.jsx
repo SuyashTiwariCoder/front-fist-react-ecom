@@ -21,8 +21,7 @@ function Navbar() {
         ><button className="btn--login">Login</button></a
       >
     </p>
-  </nav>
-
+</nav>
   )
 };
 
