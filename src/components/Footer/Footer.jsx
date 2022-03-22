@@ -1,5 +1,5 @@
 import React from 'react'
-import FooterCard from '../../Shared/FooterCard/FooterCard'
+import { FooterCard } from '../../Layouts/AllComponents/AllComponents'
 
 function Footer() {
   return (

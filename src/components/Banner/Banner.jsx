@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "react-router-dom";
 
 function Banner() {
   return (
@@ -7,9 +7,8 @@ function Banner() {
     <div class="hero__heading">
       Wear the watch you like
 
-      <a href="/products/products.html"
-        ><button>Let's <span class="red"> Shop</span></button></a
-      >
+      <Link to="/productsPage"
+        ><button>Let's <span class="red"> Shop</span></button></Link>
     </div>
 
     <div class="heroImage__container">
