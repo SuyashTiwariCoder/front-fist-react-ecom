@@ -1,9 +1,5 @@
 import React from 'react';
-import Categories from '../../components/Categories/Categories';
-import Banner from "../../components/Banner/Banner";
-import Section from '../../components/Section/Section';
-import PopularCollection from '../../components/PopularCollection/PopularCollection';
-import Footer from '../../components/Footer/Footer';
+import { Categories , Banner , Section , PopularCollection , Footer } from '../AllComponents/AllComponents'
 
 function LandingPage() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionCard from '../../Shared/SectionCard/SectionCard';
+import { SectionCard } from '../../Layouts/AllComponents/AllComponents'
 
 
 function Section() {

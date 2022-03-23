@@ -1,5 +1,7 @@
 import React from 'react'
-import PopularCollectionCard from '../../Shared/PopularCollectionCard/PopularCollectionCard'
+import { PopularCollectionCard } from '../../Layouts/AllComponents/AllComponents'
+
+
 function PopularCollection() {
   return (
  <>
