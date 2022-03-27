@@ -5,6 +5,7 @@ import {
   ProductsPage,
 } from "./Layouts/AllComponents/AllComponents";
 import { Routes, Route } from "react-router-dom";
+import Mockman from "mockman-js";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="productsPage" element={<ProductsPage />} />
+        <Route path="/mock" element={<Mockman />} />
       </Routes>
     </div>
   );
