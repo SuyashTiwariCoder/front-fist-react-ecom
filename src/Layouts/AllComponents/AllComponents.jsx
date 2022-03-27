@@ -9,6 +9,7 @@ import PopularCollection from "../../components/PopularCollection/PopularCollect
 import Footer from "../../components/Footer/Footer";
 import ProductSidebar from "../../components/ProductSidebar/ProductSidebar";
 import ProductMainContent from "../../components/ProductMainContent/ProductMainContent";
+import Products from "../../components/Products/Products";
 
 // Layouts
 import LandingPage from "../../Layouts/LandingPage/LandingPage";
@@ -40,4 +41,5 @@ export {
   ProductSidebar,
   ProductMainContent,
   SidebarContainerCard,
+  Products,
 };
